@@ -1,0 +1,127 @@
+[
+  {
+    "name": "2001: A Space Odyssey",
+    "category": "Space Movies",
+    "synopsis": "Humanity embarks on a mysterious journey to Jupiter with the sentient computer HAL 9000 after the discovery of a strange monolith on the Moon and a similar one orbiting Jupiter. The film explores themes of evolution, technology, and the nature of consciousness."
+  },
+  {
+    "name": "Star Wars: Episode IV - A New Hope",
+    "category": "Space Movies",
+    "synopsis": "A young farm boy, Luke Skywalker, gets caught up in a galactic rebellion against the evil Galactic Empire after coming into possession of stolen plans for the Empire's ultimate weapon, the Death Star. He teams up with a rogue smuggler, a wise Jedi Knight, and a princess to fight for freedom."
+  },
+  {
+    "name": "Interstellar",
+    "category": "Space Movies",
+    "synopsis": "In a near-future where Earth is becoming uninhabitable due to blight, a former NASA pilot, Joseph Cooper, is recruited for a mission through a wormhole near Saturn to find a new planet for humanity. The journey takes him and his team across vast distances and through the complexities of time and gravity."
+  },
+  {
+    "name": "The Martian",
+    "category": "Space Movies",
+    "synopsis": "During a manned mission to Mars, astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. When he miraculously survives, he must use his ingenuity to find a way to signal Earth that he is alive, while NASA and a team of international scientists work tirelessly to bring him home."
+  },
+  {
+    "name": "Arrival",
+    "category": "Space Movies",
+    "synopsis": "When twelve mysterious alien spacecraft land across the globe, a linguist, Dr. Louise Banks, is recruited by the U.S. military to decipher their complex language. As she learns to communicate with the extraterrestrial beings, she begins to experience time in a non-linear way, leading to profound insights about humanity and their visitors."
+  },
+  {
+    "name": "Toy Story",
+    "category": "Animated Kids Movies",
+    "synopsis": "Woody, a pull-string cowboy doll, is the leader of a group of toys that come to life when their owner, Andy, is not around. When Andy receives a new space ranger action figure named Buzz Lightyear, Woody's position as the favorite toy is threatened, leading to rivalry and eventually a heartwarming friendship."
+  },
+  {
+    "name": "The Lion King",
+    "category": "Animated Kids Movies",
+    "synopsis": "Simba, a young lion prince, is tricked into believing he caused his father's death by his wicked uncle Scar and flees his pride. Years later, living a carefree life with his new friends Timon and Pumbaa, he must confront his past and return to challenge Scar for the throne of the Pride Lands."
+  },
+  {
+    "name": "Finding Nemo",
+    "category": "Animated Kids Movies",
+    "synopsis": "Marlin, an overprotective clownfish, embarks on a perilous journey across the ocean to rescue his only son, Nemo, who has been captured by a diver and taken to an aquarium in Sydney. Along the way, he encounters a forgetful blue tang named Dory who helps him on his quest."
+  },
+  {
+    "name": "How to Train Your Dragon",
+    "category": "Animated Kids Movies",
+    "synopsis": "Hiccup, a clumsy and unconventional Viking teenager, befriends a young Night Fury dragon named Toothless, defying his village's long-standing tradition of dragon slaying. Their unlikely bond leads to a change in perspective and a path towards peaceful coexistence between Vikings and dragons."
+  },
+  {
+    "name": "Coco",
+    "category": "Animated Kids Movies",
+    "synopsis": "Miguel, a young boy with a passion for music but whose family has a generations-old ban on it, finds himself magically transported to the vibrant Land of the Dead during Día de Muertos. He teams up with a charming trickster named Héctor on a journey to uncover his family history and return to the land of the living."
+  },
+  {
+    "name": "Psycho",
+    "category": "Horror Movies",
+    "synopsis": "Marion Crane steals money from her employer and flees, eventually stopping at the secluded Bates Motel run by the shy and peculiar Norman Bates and his overbearing mother. What begins as a seemingly innocent stay takes a dark and terrifying turn."
+  },
+  {
+    "name": "The Exorcist",
+    "category": "Horror Movies",
+    "synopsis": "When a 12-year-old girl, Regan MacNeil, begins to exhibit disturbing and violent behavior, her desperate mother seeks the help of two Catholic priests to perform an exorcism, believing her daughter is possessed by a demonic entity."
+  },
+  {
+    "name": "Halloween",
+    "category": "Horror Movies",
+    "synopsis": "Fifteen years after murdering his sister on Halloween night, Michael Myers escapes from a mental institution and returns to his hometown of Haddonfield to terrorize and kill again, focusing on a teenage babysitter named Laurie Strode."
+  },
+  {
+    "name": "The Shining",
+    "category": "Horror Movies",
+    "synopsis": "Writer Jack Torrance takes a job as the winter caretaker of the isolated Overlook Hotel in the Colorado Rockies, bringing his wife Wendy and son Danny. As the months pass, the hotel's dark history and supernatural forces begin to take hold of Jack's sanity, threatening his family."
+  },
+  {
+    "name": "Hereditary",
+    "category": "Horror Movies",
+    "synopsis": "Following the death of her estranged mother, Annie Graham and her family begin to experience a series of disturbing and inexplicable events. As they delve into their family history, they uncover dark secrets and a terrifying supernatural presence that has haunted them for generations."
+  },
+  {
+    "name": "Die Hard",
+    "category": "Action Movies",
+    "synopsis": "NYPD officer John McClane arrives in Los Angeles to visit his estranged wife at her company's Christmas party, which is suddenly taken hostage by a group of highly organized terrorists. Alone and outgunned, McClane becomes the only hope to stop them."
+  },
+  {
+    "name": "The Terminator",
+    "category": "Action Movies",
+    "synopsis": "A cyborg assassin from the future, known as the Terminator (Model 101), is sent back in time to 1984 to eliminate Sarah Connor, whose unborn son will lead the human resistance against machines in the future. A human soldier, Kyle Reese, is also sent back to protect her."
+  },
+  {
+    "name": "Mission: Impossible - Fallout",
+    "category": "Action Movies",
+    "synopsis": "Ethan Hunt and his IMF team must track down stolen plutonium before it falls into the wrong hands. When a mission goes wrong, Ethan finds himself facing not only a deadly network of assassins but also the skepticism of his own agency."
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "category": "Action Movies",
+    "synopsis": "In a post-apocalyptic wasteland, Imperator Furiosa rebels against the tyrannical Immortan Joe and flees in a heavily armored vehicle, taking his five wives with her. Max Rockatansky, a former highway patrolman, becomes caught up in their desperate chase across the desert."
+  },
+  {
+    "name": "The Dark Knight",
+    "category": "Action Movies",
+    "synopsis": "Batman, Lieutenant James Gordon, and new district attorney Harvey Dent form an uneasy alliance to combat the rising criminal threat of the Joker, a chaotic and nihilistic mastermind who plunges Gotham City into anarchy."
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "category": "Fantasy Movies",
+    "synopsis": "A hobbit named Frodo Baggins inherits the One Ring, an artifact of immense power forged by the Dark Lord Sauron. To prevent Sauron from conquering Middle-earth, Frodo and a fellowship of companions embark on a perilous journey to destroy the Ring in the fires of Mount Doom."
+  },
+  {
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "category": "Fantasy Movies",
+    "synopsis": "An orphaned boy, Harry Potter, discovers on his eleventh birthday that he is a wizard and is invited to attend Hogwarts School of Witchcraft and Wizardry. There, he makes friends, learns magic, and uncovers a plot involving a powerful and dangerous artifact, the Sorcerer's Stone."
+  },
+  {
+    "name": "Excalibur",
+    "category": "Fantasy Movies",
+    "synopsis": "This film chronicles the legendary tale of King Arthur, from his miraculous birth and the drawing of the sword Excalibur from the stone, to the rise of his kingdom, the Knights of the Round Table, the quest for the Holy Grail, and the tragic betrayal by Lancelot and Guinevere, all interwoven with elements of magic and myth."
+  },
+  {
+    "name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "category": "Fantasy Movies",
+    "synopsis": "During World War II, four siblings – Peter, Susan, Edmund, and Lucy Pevensie – are evacuated to a large country house. The youngest, Lucy, discovers a magical world called Narnia through a wardrobe, where they become involved in a battle between the noble lion Aslan and the evil White Witch."
+  },
+  {
+    "name": "Ladyhawke",
+    "category": "Fantasy Movies",
+    "synopsis": "In medieval France, Captain Etienne Navarre and Lady Isabeau d'Anjou are under a curse by the Bishop of Aquila. By day, Isabeau transforms into a hawk, and by night, Navarre becomes a wolf. They can only briefly appear in their human forms at dawn and dusk, never together. A young thief helps them in their quest to break the curse."
+  }
+]
