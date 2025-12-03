@@ -1,6 +1,91 @@
 #root {
-  max-width: 1280px;
+  width: 100vw;
   margin: 0 auto;
   padding: 2rem;
+  box-sizing: border-box;
   text-align: center;
+}
+
+.movie-tag {
+  border: 1px solid grey;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 8px;
+  text-wrap: nowrap;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  height: 300px;
+}
+
+.title-container {
+  position: relative;
+}
+
+.title-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgb(0, 255, 0, 0.1);
+  z-index: -1;
+}
+
+.movie-card a {
+  color: white;
+}
+
+.movie-card-title {
+  margin: 0;
+}
+
+.movie-card-tags {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-height: 30px;
+}
+
+.movie-card-tags-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 5px;
+}
+
+.loading-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 15px;
+}
+
+.loading-indicator img {
+  width: 30px;
+  height: 30px;
+}
+
+.movie-card-synopsis {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px;
+}
+
+.query-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-list {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
