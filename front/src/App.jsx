@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import useChroma from '../database/init';
+import query from '../database/query';
 import './App.css';
-
-import { ChromaClient } from 'chromadb';
 
 function MovieTag({ tag }) {
   return <span className='movie-tag'>{tag}</span>;
@@ -48,47 +48,20 @@ function LoadingIndicator() {
 }
 
 function App() {
-  const [chromaCollection, setChromaCollection] = useState(null);
   const [movieList, setMovieList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [isConnected, setIsConnected] = useState(false);
   const [queryText, setQueryText] = useState('');
+
+  const [chromaCollection, isConnected] = useChroma();
 
   async function queryDatabase() {
     setIsLoading(true);
 
-    const result = await chromaCollection.query({
-      queryTexts: [queryText],
-    });
-
-    const distances = result.distances[0].map((d) => (1 - d + 1) / 2);
-
-    const movies = result.ids[0].map((id, i) => ({
-      id,
-      distance: distances[i],
-      title: result.metadatas[0][i].title,
-      tags: result.metadatas[0][i].tags.split(', '),
-      synopsis: result.metadatas[0][i].synopsis,
-    }));
+    const movies = await query(chromaCollection, queryText);
 
     setMovieList(movies);
     setIsLoading(false);
   }
-
-  useEffect(() => {
-    const initializeChroma = async () => {
-      const chromaClient = new ChromaClient();
-      const collection = await chromaClient.getOrCreateCollection({
-        name: 'movies',
-        space: 'cosine',
-      });
-
-      setChromaCollection(collection);
-      setIsConnected(true);
-    };
-
-    initializeChroma();
-  }, []);
 
   return (
     <>
