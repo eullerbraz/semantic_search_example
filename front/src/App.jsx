@@ -3,6 +3,8 @@ import useChroma from '../database/init';
 import query from '../database/query';
 import './App.css';
 
+const CHROMA_COLLECTION_NAME = 'movies_gemini';
+
 function MovieTag({ tag }) {
   return <span className='movie-tag'>{tag}</span>;
 }
@@ -52,7 +54,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [queryText, setQueryText] = useState('');
 
-  const [chromaCollection, isConnected] = useChroma();
+  const [chromaCollection, isConnected] = useChroma(CHROMA_COLLECTION_NAME);
 
   async function queryDatabase() {
     setIsLoading(true);
